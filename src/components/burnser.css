@@ -1,0 +1,52 @@
+.container{
+    height: 200px;
+    width: 420px;
+    border: 1px solid red;
+    margin-top: 50px;
+    padding: 0 10px 0px 10px;
+}
+h2{
+    position: relative;
+    top: -10px;
+}
+.name {
+    position: relative;
+top: -30px;
+}
+.sub li{
+    position: relative;
+    top: -65px;
+    left: 28px;
+}
+.burner-btn{
+    height: 18px;
+    width: 110px;
+    background-color: #fff;
+    border: 1px solid rgb(194, 189, 189);
+    font-weight: 600;
+    position: relative;
+    top: -70px;
+}
+.left hr{
+    position: relative;
+    top: -55px;
+    border: 5px solid green;
+    border-radius: 5px;
+}
+.balance-1{
+    position: relative;
+    top: -55px;
+    left: -20px;
+}
+.balance-1 li {
+    margin-top: 10px;
+}
+.right p {
+    position: relative;
+    top: -200px;
+    left: 295px;
+}
+.SGD{
+    margin-top: 20px;
+    margin-left: 50px;
+}

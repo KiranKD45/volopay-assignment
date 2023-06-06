@@ -1,0 +1,47 @@
+h1{
+    margin-left: 55px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+.list li {
+    margin-left: 20px;
+}
+.button{
+    position: absolute;
+    top: 35px;
+    right: 100px;
+    height: 40px;
+    width: 250px;
+    background-color: #fff;
+   border-radius: 10px;
+   color: #000;
+   border: 1px solid #a2a1a1;
+   font-weight: 700;
+   font-size: medium;
+}
+.hr{
+    margin-left: 65px;
+    margin-right: 65px;
+    border: 1px solid #d4d2d2;
+}
+.search-btn{
+    position: absolute;
+    top: 150px;
+    right: 240px;
+}
+.filter-btn{
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+.home-left {
+    margin-left: 70px;
+}
+.home-right{
+     position: relative;
+    top: -755px;
+    left: 50%;
+    }
