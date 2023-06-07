@@ -1,6 +1,7 @@
 import React from 'react'
 import "./burnser.css"
 
+
 function Burner({head,name, sub, btn,li1,li2,exp,sgd1,sgd2} ) {
   return (
     <div className='container'>
@@ -13,12 +14,11 @@ function Burner({head,name, sub, btn,li1,li2,exp,sgd1,sgd2} ) {
         <button className='burner-btn'>{btn}</button>
         <hr/>
         <ul className='balance-1 '>
-            <li>{li1}</li>
-            <li>{li2}</li>
+            <li className='li1'>{li1}</li>
+            <li className='li2'>{li2}</li>
         </ul>
         </div>
         <div className='right'>
-            <img src=''/>
             <p className='exp'>{exp}</p>
             <p className='SGD'>{sgd1}</p>
             <p className='SGD'>{sgd2}</p>
@@ -27,4 +27,4 @@ function Burner({head,name, sub, btn,li1,li2,exp,sgd1,sgd2} ) {
   )
 }
 
-export default Burner
+export default Burner;

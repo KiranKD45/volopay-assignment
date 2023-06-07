@@ -1,9 +1,10 @@
 .container{
     height: 200px;
     width: 420px;
-    border: 1px solid red;
+    border-radius: 10px;
     margin-top: 50px;
-    padding: 0 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 h2{
     position: relative;
@@ -17,6 +18,7 @@ top: -30px;
     position: relative;
     top: -65px;
     left: 28px;
+
 }
 .burner-btn{
     height: 18px;
@@ -40,10 +42,30 @@ top: -30px;
 }
 .balance-1 li {
     margin-top: 10px;
+    list-style-type: none;
+    
 }
+.li1::before{
+  content: "\2022";
+  color: red;
+  font-weight: 900;
+  font-size: larger;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.li2::before{
+    content: "\2022";
+    color: green;
+    font-weight: 900;
+    font-size: larger;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 .right p {
     position: relative;
-    top: -200px;
+    top: -210px;
     left: 295px;
 }
 .SGD{
