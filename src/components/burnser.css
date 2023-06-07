@@ -1,3 +1,6 @@
+.he{
+    background-color: aqua;
+}
 .container{
     height: 200px;
     width: 420px;
@@ -13,18 +16,23 @@ h2{
 .name {
     position: relative;
 top: -30px;
+color: #868383;
+
 }
 .sub li{
     position: relative;
     top: -65px;
     left: 28px;
+    color: #868383;
 
 }
 .burner-btn{
     height: 18px;
     width: 110px;
     background-color: #fff;
+    color: #868383;
     border: 1px solid rgb(194, 189, 189);
+    border-radius: 5px;
     font-weight: 600;
     position: relative;
     top: -70px;
@@ -65,7 +73,7 @@ top: -30px;
   }
 .right p {
     position: relative;
-    top: -210px;
+    top: -170px;
     left: 295px;
 }
 .SGD{

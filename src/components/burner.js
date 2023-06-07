@@ -1,7 +1,6 @@
 import React from 'react'
 import "./burnser.css"
 
-
 function Burner({head,name, sub, btn,li1,li2,exp,sgd1,sgd2} ) {
   return (
     <div className='container'>
